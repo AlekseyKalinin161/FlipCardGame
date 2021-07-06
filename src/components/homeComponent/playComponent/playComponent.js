@@ -1,6 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom";
-import Board from "./halfBoardComponent";
+import BoardComponent from "./boardComponent/boardComponent";
 
 
 
@@ -27,7 +27,7 @@ const PlayComponent = (props) => {
     return (
         <div>
             <div style={playBoard}>
-                <Board
+                <BoardComponent
                     stateArray={props.stateArray} setStateArray={props.setStateArray} idArray={props.idArray}
                 />
             </div>

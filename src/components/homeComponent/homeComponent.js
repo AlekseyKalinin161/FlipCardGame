@@ -1,9 +1,9 @@
 import React from "react";
-import StartComponent from "./startComponent";
-import PlayComponent from "./playComponent";
+import StartComponent from "./startComponent/startComponent";
+import PlayComponent from "./playComponent/playComponent";
 import {BrowserRouter, Route} from "react-router-dom";
-import SettingComponent from "./settingComponent";
-import RecordsComponent from "./recordsComponent";
+import SettingComponent from "./settingComponent/settingComponent";
+import RecordsComponent from "./recordsComponent/recordsComponent";
 
 
 const HomeComponent = (props) => {

@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import CardComponent from "./cardComponent/cardComponent";
 
 
-const Board = (props) => {
+const BoardComponent = (props) => {
     const [flagArr, setFlagArr] = useState(false);
     function shuffle(array) {
         if(flagArr === false){
@@ -41,4 +41,4 @@ const Board = (props) => {
     )
 
 }
-export default Board
+export default BoardComponent

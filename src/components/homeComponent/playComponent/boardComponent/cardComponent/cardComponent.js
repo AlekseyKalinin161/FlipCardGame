@@ -1,6 +1,6 @@
 import React from "react";
 import "./cardComponent.css"
-import {idArray, rerender} from "../../state";
+import {idArray, rerender} from "../../../../../state";
 
 
 

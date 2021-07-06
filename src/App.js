@@ -1,5 +1,5 @@
 import './App.css';
-import HomeComponent from "./components/homeComponent";
+import HomeComponent from "./components/homeComponent/homeComponent";
 import {useState} from "react";
 import {arrayCard} from "./state";
 
