@@ -14,7 +14,6 @@ function App() {
                 <HomeComponent
                     setBackgroundImg={setBackgroundImg}
                     stateArray={stateArray} setStateArray={setStateArray}
-
                 />
             </StateProvider>
         </div>

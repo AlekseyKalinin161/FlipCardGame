@@ -1,17 +1,16 @@
-import React, {useState} from "react";
+import React from "react";
 import {Link} from "react-router-dom";
 import BoardComponent from "./boardComponent/boardComponent";
 import Button from "@material-ui/core/Button";
 import {makeStyles} from "@material-ui/core/styles";
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(() => ({
     playBoard: {
         display: "flex",
         flexWrap: "wrap",
         border: "3px solid white",
         width: "auto",
         height: "100%",
-        // margin: "5px",
     },
     noLink: {
         textDecoration: 'none',
@@ -20,11 +19,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const PlayComponent = (props) => {
-    const [data,setData] = useState(null)
     const playBoard = useStyles();
-
-
-    console.log('data',data);
 
     return (
         <div style={{width: '100%', height: '87%'}}>

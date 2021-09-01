@@ -4,7 +4,7 @@ import Button from "@material-ui/core/Button";
 import {makeStyles} from "@material-ui/core/styles";
 import {useCustomState} from "../../../context/context";
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(() => ({
     wrapper: {
         height: '100%',
         width: '20%',
@@ -42,10 +42,7 @@ const StartComponent = (props) => {
     }
 
     useEffect(() => {
-        // if (!stateGame.gameData) {
             dataRequest(stateGame.gameType).then((response) => dispatch({type: 'INITIAL_GAME', data: response}))
-        // }
-        console.log('INITIAL_GAME useEff');
     }, [stateGame.gameType])
 
     useEffect(() => {

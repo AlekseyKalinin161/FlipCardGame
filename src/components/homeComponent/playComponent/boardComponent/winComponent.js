@@ -58,7 +58,7 @@ export default function WinComponent(props) {
                 e.disabled = false
         })
     }
-    console.log(arrayCard);
+
     const win = (
         <div style={modalStyle} className={classes.paper}>
             <h2 id="simple-modal-title">You win!</h2>

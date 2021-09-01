@@ -1,13 +1,9 @@
 import React from "react";
 import "./cardComponent.css"
 import { idArray, rerender} from "../../../../../state";
-import {useCustomState} from "../../../../../context/context";
-
 
 
 const CardComponent = (props) => {
-
-    const {state: state, dispatch} = useCustomState()
 
     function notEqual() {
         idArray.forEach((e) => {

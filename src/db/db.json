@@ -1,0 +1,86 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typeCode"
+  },
+  "marvel":
+  {
+    "backgroundImg": "https://proprikol.ru/wp-content/uploads/2020/01/prikolnye-kartinki-supergeroi-marvel-13.jpg",
+    "cardFront": "https://i.pinimg.com/236x/4d/fd/e2/4dfde2e93f9d1db1a00d4df6e3b5e306.jpg",
+    "cardBack": {
+      "1": "https://i.pinimg.com/236x/3e/4c/12/3e4c12de41fb25386cc1cf25288271c6.jpg",
+      "2": "https://i.pinimg.com/236x/b5/c0/64/b5c0644301e861fba42d94fa36aec02e.jpg",
+      "3": "https://i.pinimg.com/236x/71/b6/30/71b630395e83094ec90e0c084e570163.jpg",
+      "4": "https://i.pinimg.com/236x/43/49/c7/4349c777fe7bd02fea1150a1f2394ed9.jpg",
+      "5": "https://i.pinimg.com/236x/a5/67/b4/a567b4b6f7d8272b789bb891911d28eb.jpg",
+      "6": "https://i.pinimg.com/236x/ca/ec/a7/caeca732eab6c2799d0ab9237ef8361d.jpg",
+      "7": "https://i.pinimg.com/236x/aa/c7/83/aac783715a692960dbcb277f18d4dcdd.jpg",
+      "8": "https://i.pinimg.com/236x/71/49/05/714905521e429c3f5e1ca2d9a06fc1cc.jpg",
+      "9": "https://i.pinimg.com/236x/ab/1c/b7/ab1cb7cb05e294a44162f375017bc8cf.jpg",
+      "10": "https://i.pinimg.com/236x/3f/7b/1e/3f7b1eec2b1295917b1bf443b8f36031.jpg",
+      "11": "https://i.pinimg.com/236x/ec/81/0c/ec810c87b79d77a9192c83cd63dada20.jpg",
+      "12": "https://i.pinimg.com/236x/9d/13/30/9d1330c94498c28fdf80fdf322241333.jpg",
+      "13": "https://i.pinimg.com/236x/9d/13/30/9d1330c94498c28fdf80fdf322241333.jpg",
+      "14": "https://i.pinimg.com/236x/4a/ce/be/4acebe202f499250b86d865677e0f6c3.jpg",
+      "15": "https://i.pinimg.com/236x/6d/28/e1/6d28e13eecb971cff8f50e32713ecd36.jpg",
+      "16": "https://i.pinimg.com/236x/9f/3a/9f/9f3a9fb18e422ba237d10522fda98365.jpg"
+    }
+  },
+  "dc": {
+    "backgroundImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS43FXHqocyKPQYwFwPUU0M19-RUf5jqNZI1gKnonbLmHrrxxHTIjkXofNpCWovcGU01dU&usqp=CAU",
+    "cardFront": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwFVyokPS8OJ-JGSog-7HDB1s4cD7faGJ3E1YCZ4LqrkMQMQbdTVIacnYtLW_lVi31aP4&usqp=CAU",
+    "cardBack": {
+      "1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAyV0Un2PNl_K7u-ilzKyasmn6USza-u3RnZSvw1M5BrmOcQgUkA92F25VGldx4dRHbMY&usqp=CAU",
+      "2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdKqKtFXYsTDihYunAFSJyAUuHc46Ccn7nlxqFOmp7FUa8ZQioCWKsK7Vk_j_gaQlpFVQ&usqp=CAU",
+      "3": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8BIOy8KO9henBgldrDYNScM5FXhQYp8GF7SofbYHKJ4rgSgvzLZxd_7pKRcgL6r6VgB4&usqp=CAU",
+      "4": "http://upload.wikimedia.org/wikipedia/ru/f/f8/Aquaman-by-Alex-Ross.jpg",
+      "5": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkXoENSDJegasSsM2H79wVymH5TuGll1MjJkceFFuUQzillhQZ0eoEYhROPu7Bb1tUbd0&usqp=CAU",
+      "6": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzT-HgAAV27rDod5t5s_QL5t1FmoObSdbI8_av1XOGiAhjgY5RjvLJPHnW4oytvvEkscQ&usqp=CAU",
+      "7": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxmocUItLgcSwgKw67l5HGwhX4MS44K3ztADuVIC3n7LEE05L9B-5t5EQHqbXJBgOnElg&usqp=CAU",
+      "8": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi0phXoCONMjT9RIyf64Aeue88hb48jZIpqhhvTNjzJobRhjdpM8NzaAQX8iCVGAN8zlw&usqp=CAU",
+      "9": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCT2YhKqx2v0vwycdwAU2c_mTkoZbYXF7pdEAH9cVgMi0vq3kwCzbdmX6j0aHwHfjVp9Q&usqp=CAU",
+      "10": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHWtzzwFG8KR-eDjG-TFyJ4KlGXiEZ4dFpjSpEiXkmQwBwp8tDXyFDSh14Wj0J-wbVqtA&usqp=CAU",
+      "11": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTySqoOFixOGJKSA7G2okIvs6AiUySL6_DwCXXd3fBF3CCEjP4dsKKryeh1HjRoctLxfKE&usqp=CAU",
+      "12": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6vr2yrcS8HWmNC1g2D-w9KRP9yuk3L2VmdaIpuMEV4jOLDpfFcO-2m37Yq8OW47Mw4AU&usqp=CAU",
+      "13": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHdKEzFq2g0-dnY8erN-hBwWFW4a-Zy4wxtL4xmy1egr-p5MCInv1T5zT6PVxUVOutXuw&usqp=CAU",
+      "14": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdP3pZhRBet2Tc3eZgMJHaNKyLjS09FY9o0C1clOC0eAeCnu__rGMZTPmgtypbQpw7D8s&usqp=CAU",
+      "15": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCwx2Tu8kiMSFOpMSpi9TSNUpn_3Aq9Jlkn_r48ZCHEFhDB071nNxt2-xhV1RB_B4o5cI&usqp=CAU",
+      "16": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXQ9SYy4uxDvuTcNPGz6rc66CQ2FQ-kA7nMvKvqyzhH-1jOJ9LJfTlVxBbi_sK7ZBcglU&usqp=CAU"
+    }
+  },
+  "disney": {
+    "backgroundImg": "https://wallpaperaccess.com/full/554898.jpg",
+    "cardFront": "https://upload.wikimedia.org/wikipedia/commons/3/3d/DC_Comics_logo.svg",
+    "cardBack": {
+      "1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAhUvo-jJ6fXFfThWwctwWew39Hmqx8r-ecXg0nXau1DEnckf_mUjWJh02kFYYRODtP5M&usqp=CAU",
+      "2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAnpTvRknZ6qbf3g82Lxt0Pyu7HoqPaR9AxBE0zaewlLXMxX1cRFLvhr0aNg-09pL9qXw&usqp=CAU",
+      "3": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4NTUtx7Le3Xe2o03qOrkznwrmF8_Or01dzCrpkytcL-A3QYS1upnmHz02I0bkZgL-HCU&usqp=CAU",
+      "4": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxJN9kaeYfeNBIQWxeSSfNasMfhrLS03S_VmoaWTifqduArpu96LJAkvB18VM48HwBYrU&usqp=CAU",
+      "5": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6g4xQ3_BsRVAlTsZce3vqYT6bKThjccHI75BHpjOUKzI0CNfHQY_0UchB-RpN8k8zUlA&usqp=CAU",
+      "6": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4DSbXLEps6PU-SNy29iMXwMJ4lAuLpOucm1t1k82rZaNPTtLStXf8cKjKzBff_Ak6vVY&usqp=CAU",
+      "7": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7JM0MOHSjyd_SnfwcRfK6qtzNap6XnYi-DXeLE2t6FKbYeGNTSrTJYQrZpmeKcDl1xnw&usqp=CAU",
+      "8": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN5ja2TRbRj7gHT1JkbC2PJSMVFd_mBcBWn777AYBeUsISiY4BoWUIZPq5Om1Lzf4XvwM&usqp=CAU",
+      "9": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFBmbIWDSypvXfi11_j-WYOSC8jTFG9AnKp4sodb6osVrB2gHhtiiHyiK5RMO12P3TkO0&usqp=CAU",
+      "10": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGWCP_pQUXYt8Ly6R1j0zUtizd7M-1XmowZ-hfx010lGD8JdmaU4NivmfhdK5N-YtbI_A&usqp=CAU",
+      "11": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_ts1TO4qPccdtuEl43jNYk8iMesGhWDUYXjmE4SC-AKjMeuGQjP3qfXw-e4BJeLIy42M&usqp=CAU",
+      "12": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYrkLFdOr5rPV7kn8K1ulDX4ph-n2OvCsYb4JDGCQfWjpziE0oyvSQTIQlMNys3T3c-tg&usqp=CAU",
+      "13": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSKK5js3xDeBTMFTqVkyrDZcwUQkGNizWX5y6r4NlBp_H4CXF36DOtQlBWDovMGqERuEU&usqp=CAU",
+      "14": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd-hjoHqzb7ARNAzI6m4U61l0bXLrfheoc0Q&usqp=CAU",
+      "15": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZyLi_1WWmgJzrdAjxRIz7JV5OvD0mFtTWdqQsuixpuQ0RKCOoEfrwG4bTxRpzhWqxN9M&usqp=CAU",
+      "16": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTogpxh6gSFTGmO7zakwzIk4ITwHsQ_WZRAH_L1dtIPikqU-4XMx6OqNyT0dOyZl1XIrLs&usqp=CAU"
+    }
+  }
+}
